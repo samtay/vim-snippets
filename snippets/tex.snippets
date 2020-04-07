@@ -6,6 +6,23 @@ snippet text text
 snippet mb mathbb
 	\\mathbb{${1:${VISUAL:text}}}${0}
 
+snippet wh widehat
+        \\widehat{${1:${VISUAL:text}}}${0}
+
+snippet wt widetilde
+        \\widetilde{${1:${VISUAL:text}}}${0}
+
+snippet prod \prod^{}_{}
+	\\prod^{${1:n}}_{${2:i=1}} ${0}
+
+snippet sol solution environment
+	\\begin{solution}
+		${0:${VISUAL}}
+	\\end{solution}
+
+snippet op operatorname
+        \\operatorname{${1:${VISUAL:text}}}${0}
+
 #version 1
 #PREAMBLE
 #newcommand
